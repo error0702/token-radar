@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar: pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#board">Skip to the board</a>
+<header class="top">
+  <div class="brand"><span class="mark" aria-hidden="true"></span><span class="brand-name">TOKEN RADAR</span><span class="model-tag" id="model-tag"></span></div>
+  <div class="top-meta" id="top-meta"></div>
+</header>
+<main id="board" tabindex="-1">
+  <section class="lede">
+    <div>
+      <h1 id="headline">Pre-token protocols, ranked by implied value</h1>
+      <p id="lede-text">Every protocol below records no token. Implied value is this radar's own model of what a token would be worth if the protocol's record stayed as it is. It is an estimate, not a price, and never a prediction that a token is coming.</p>
+      <p class="warn">A protocol that records no token has no token to buy. Any token sold under its name before an official announcement is a fake.</p>
+    </div>
+    <div class="facts" id="facts"></div>
+  </section>
+  <section class="controls" id="controls" aria-label="Filter and sort the board"></section>
+  <div class="layout">
+    <section class="board-col" id="board-col" aria-label="Ranked board"></section>
+    <aside class="detail-col" id="detail-col" aria-label="Protocol detail"></aside>
+  </div>
+  <section class="panel model" id="model-panel" aria-label="How implied value is computed"></section>
+  <section class="panel notes" id="notes-panel" aria-label="How to read this radar"></section>
+</main>
+<footer class="foot" id="foot"></footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
